@@ -186,9 +186,8 @@
     class="absolute -top-1/2 left-1/2 w-96 h-96 bg-white/10 rounded-full blur-2xl opacity-10 group-hover:opacity-20 transition"
   ></div>
   <h3 class="text-xl font-bold mb-2">Tourv 🌍</h3>
-  <p class="text-sm text-gray-200 leading-relaxed mb-3">
-    A fully responsive travel agency website built with HTML, CSS, Bootstrap, and JavaScript. Designed as a frontend-only project showcasing multiple pages like Home, About, Services, and Packages with a clean and professional UI.
-  </p>
+<p class="text-sm text-gray-200 leading-relaxed mb-3">
+I bring my frontend skills to life ✨ — from smooth navigation 🧭 to stunning layouts 🎨 and interactive UI ⚙️
   <div class="flex flex-wrap gap-2 text-xs">
     <span class="bg-gray-700/50 px-3 py-1 rounded-full">HTML</span>
     <span class="bg-gray-700/50 px-3 py-1 rounded-full">CSS</span>
@@ -246,169 +245,112 @@
       </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section
-      id="certifications"
-      class="py-16 px-4 bg-gray-900 relative overflow-hidden"
-    >
-      <h2
-        class="text-3xl font-extrabold text-center mb-10 tracking-tight text-indigo-300 drop-shadow-md"
-      >
-        🎓 Certifications
-      </h2>
+<!-- Certifications Section -->
+<section id="certifications" class="py-16 px-4 bg-gray-900 relative overflow-hidden">
+  <h2 class="text-3xl font-extrabold text-center mb-10 tracking-tight text-indigo-300 drop-shadow-md">
+    🎓 Certifications
+  </h2>
 
-      <!-- Scroll Buttons -->
-      <button
-        id="scrollLeft"
-        class="absolute left-4 top-1/2 -translate-y-1/2 z-20 p-5 text-2xl rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-xl shadow-indigo-500/40 hover:scale-110 hover:shadow-2xl hover:from-indigo-500 hover:to-purple-500 transition-all duration-300 ease-in-out"
-        aria-label="Scroll Left"
-      >
-        ←
-      </button>
+  <!-- Scroll Buttons (Hidden on small screens) -->
+  <button
+    id="scrollLeft"
+    class="hidden md:block absolute left-4 top-1/2 -translate-y-1/2 z-20 p-5 text-2xl rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-xl hover:scale-110 transition-all"
+    aria-label="Scroll Left">
+    ←
+  </button>
 
-      <button
-        id="scrollRight"
-        class="absolute right-4 top-1/2 -translate-y-1/2 z-20 p-5 text-2xl rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-xl shadow-indigo-500/40 hover:scale-110 hover:shadow-2xl hover:from-indigo-500 hover:to-purple-500 transition-all duration-300 ease-in-out"
-        aria-label="Scroll Right"
-      >
-        →
-      </button>
+  <button
+    id="scrollRight"
+    class="hidden md:block absolute right-4 top-1/2 -translate-y-1/2 z-20 p-5 text-2xl rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-xl hover:scale-110 transition-all"
+    aria-label="Scroll Right">
+    →
+  </button>
 
-      <!-- Cards Container -->
-      <div
-        id="certCards"
-        class="flex gap-6 overflow-x-hidden scroll-smooth snap-x snap-mandatory px-8 no-scrollbar"
-      >
-        <!-- Certification Cards -->
-        <!-- Repeat this structure for each card -->
-        <a
-          href="static//pdf//ML.pdf"
-          target="_blank"
-          class="min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start transform hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600"
-            src="static//img//2.jpg"
-            alt="ML Certificate"
-          />
-          <h3 class="text-lg font-semibold mb-2 text-indigo-200">
-            Machine Learning
-          </h3>
-          <p class="text-sm text-gray-300">
-            IBM 🧠 — Python, Sklearn, pipelines, deployment.
-          </p>
-        </a>
+  <!-- Scrollable Certification Cards -->
+  <div
+    id="certCards"
+    class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory px-2 md:px-8 no-scrollbar">
+    
+    <!-- Card Template -->
+    <a href="static//pdf//ML.pdf" target="_blank"
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start hover:scale-105 transition">
+      <img src="static//img//2.jpg" alt="ML Certificate"
+        class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600" />
+      <h3 class="text-lg font-semibold mb-2 text-indigo-200">Machine Learning</h3>
+      <p class="text-sm text-gray-300">IBM 🧠 — Python, Sklearn, pipelines, deployment.</p>
+    </a>
 
-        <a
-          href="static//pdf//app.pdf"
-          target="_blank"
-          class="min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start transform hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600"
-            src="static//img//a.png"
-            alt="Kotlin Certificate"
-          />
-          <h3 class="text-lg font-semibold mb-2 text-indigo-200">
-            Android with Kotlin
-          </h3>
-          <p class="text-sm text-gray-300">
-            Udemy 📱 — MVVM, Jetpack, UI design.
-          </p>
-        </a>
+    <a href="static//pdf//app.pdf" target="_blank"
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start hover:scale-105 transition">
+      <img src="static//img//a.png" alt="Kotlin Certificate"
+        class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600" />
+      <h3 class="text-lg font-semibold mb-2 text-indigo-200">Android with Kotlin</h3>
+      <p class="text-sm text-gray-300">Udemy 📱 — MVVM, Jetpack, UI design.</p>
+    </a>
 
-        <a
-          href="static//pdf//Frontend.pdf"
-          target="_blank"
-          class="min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start transform hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600"
-            src="static//img//22.jfif"
-            alt="Full Stack Certificate"
-          />
-          <h3 class="text-lg font-semibold mb-2 text-indigo-200">
-            Full Stack Development
-          </h3>
-          <p class="text-sm text-gray-300">
-            Infosys 💻 — HTML, React, Flask, APIs.
-          </p>
-        </a>
+    <a href="static//pdf//Frontend.pdf" target="_blank"
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start hover:scale-105 transition">
+      <img src="static//img//22.jfif" alt="Full Stack Certificate"
+        class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600" />
+      <h3 class="text-lg font-semibold mb-2 text-indigo-200">Full Stack Development</h3>
+      <p class="text-sm text-gray-300">Infosys 💻 — HTML, React, Flask, APIs.</p>
+    </a>
 
-        <a
-          href="static//pdf//Python.pdf"
-          target="_blank"
-          class="min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start transform hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600"
-            src="static//img//3.jpg"
-            alt="Python Certificate"
-          />
-          <h3 class="text-lg font-semibold mb-2 text-indigo-200">
-            Python Basics
-          </h3>
-          <p class="text-sm text-gray-300">
-            Infosys 🐍 — Functions, loops, automation.
-          </p>
-        </a>
+    <a href="static//pdf//Python.pdf" target="_blank"
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start hover:scale-105 transition">
+      <img src="static//img//3.jpg" alt="Python Certificate"
+        class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600" />
+      <h3 class="text-lg font-semibold mb-2 text-indigo-200">Python Basics</h3>
+      <p class="text-sm text-gray-300">Infosys 🐍 — Functions, loops, automation.</p>
+    </a>
 
-        <a
-          href="static//pdf//flask_certificate.pdf"
-          target="_blank"
-          class="min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start transform hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600"
-            src="static//img//1.jpg"
-            alt="Flask Certificate"
-          />
-          <h3 class="text-lg font-semibold mb-2 text-indigo-200">
-            Backend with Flask
-          </h3>
-          <p class="text-sm text-gray-300">
-            Udemy 🔥 — APIs, auth, deployment.
-          </p>
-        </a>
-      </div>
-    </section>
+    <a href="static//pdf//flask_certificate.pdf" target="_blank"
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-gray-800 rounded-xl shadow-xl p-5 text-center text-white border border-gray-700 snap-start hover:scale-105 transition">
+      <img src="static//img//1.jpg" alt="Flask Certificate"
+        class="mx-auto mb-4 w-28 h-28 rounded-lg object-cover border border-gray-600" />
+      <h3 class="text-lg font-semibold mb-2 text-indigo-200">Backend with Flask</h3>
+      <p class="text-sm text-gray-300">Udemy 🔥 — APIs, auth, deployment.</p>
+    </a>
+  </div>
+</section>
 
-    <!-- Scroll Logic for 4 cards -->
-    <script>
-      let scrollIndex = 0;
-      const cardContainer = document.getElementById("certCards");
-      const cardWidth = 376; // 350px card + 26px gap
-      const cardsPerPage = 4;
+<!-- Scroll Logic (Only for Desktop Buttons) -->
+<script>
+  let scrollIndex = 0;
+  const cardContainer = document.getElementById("certCards");
+  const cardWidth = 376; // approximate width for each card
+  const cardsPerPage = 2;
 
-      document.getElementById("scrollLeft").addEventListener("click", () => {
-        scrollIndex = Math.max(scrollIndex - cardsPerPage, 0);
-        cardContainer.scrollTo({
-          left: scrollIndex * cardWidth,
-          behavior: "smooth",
-        });
-      });
+  document.getElementById("scrollLeft").addEventListener("click", () => {
+    scrollIndex = Math.max(scrollIndex - cardsPerPage, 0);
+    cardContainer.scrollTo({
+      left: scrollIndex * cardWidth,
+      behavior: "smooth",
+    });
+  });
 
-      document.getElementById("scrollRight").addEventListener("click", () => {
-        const totalCards = cardContainer.children.length;
-        const maxIndex = totalCards - cardsPerPage;
-        scrollIndex = Math.min(scrollIndex + cardsPerPage, maxIndex);
-        cardContainer.scrollTo({
-          left: scrollIndex * cardWidth,
-          behavior: "smooth",
-        });
-      });
-    </script>
+  document.getElementById("scrollRight").addEventListener("click", () => {
+    const totalCards = cardContainer.children.length;
+    const maxIndex = totalCards - cardsPerPage;
+    scrollIndex = Math.min(scrollIndex + cardsPerPage, maxIndex);
+    cardContainer.scrollTo({
+      left: scrollIndex * cardWidth,
+      behavior: "smooth",
+    });
+  });
+</script>
 
-    <!-- Hide Scrollbar -->
-    <style>
-      .no-scrollbar::-webkit-scrollbar {
-        display: none;
-      }
-      .no-scrollbar {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-      }
-    </style>
+<!-- Hide Scrollbar -->
+<style>
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>
 
     <!-- Contact Section -->
     <section
@@ -490,33 +432,27 @@
               <p class="text-gray-300">+91 8957125131</p>
             </div>
           </div>
-          <!-- Linkedin -->
-          <div
-            class="flex items-center space-x-4 bg-white/10 backdrop-blur-lg rounded-lg p-6"
-          >
-            <!-- LinkedIn Icon -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="w-6 h-6 text-blue-500"
-            >
-              <path
-                d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47s-1.73 1.17-1.73 2.38v4.59h-3v-9h2.88v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v4.74z"
-              />
-            </svg>
-            <div>
-              <h3 class="text-white font-medium">LinkedIn</h3>
-              <a
-                href="https://www.linkedin.com/in/gyanendra-gupta-4b9031277"
-                class="text-gray-300"
-                target="_blank"
-                >https://www.linkedin.com/in/gyanendra-gupta-4b9031277</a
-              >
-            </div>
-          </div>
+<!-- LinkedIn -->
+<div
+  class="flex flex-col sm:flex-row items-start sm:items-center sm:space-x-4 space-y-2 sm:space-y-0 bg-white/10 backdrop-blur-lg rounded-lg p-6"
+>
+  <!-- LinkedIn Icon Image -->
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+    alt="LinkedIn Icon"
+    class="w-6 h-6 flex-shrink-0"
+  />
+  <div class="break-words">
+    <h3 class="text-white font-medium">LinkedIn</h3>
+    <a
+      href="https://www.linkedin.com/in/gyanendra-gupta-4b9031277"
+      class="text-gray-300 break-all"
+      target="_blank"
+    >
+      https://www.linkedin.com/in/gyanendra-gupta-4b9031277
+    </a>
+  </div>
+</div>
 
           <!-- Location -->
           <div
