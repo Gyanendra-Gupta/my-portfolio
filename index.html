@@ -248,45 +248,27 @@
     </a>
   </div>
 </section>
-
 <!-- Certifications Section -->
-<section id="certifications" class="py-20 px-4 bg-gradient-to-br from-gray-900 via-gray-800 to-black relative overflow-hidden">
+<section id="certifications" class="py-20 px-4 bg-gradient-to-br from-gray-900 via-gray-800 to-black">
   <h2 class="text-4xl font-bold text-center mb-12 text-indigo-300 tracking-tight drop-shadow-lg">
     🎓 Certifications
   </h2>
 
-  <!-- Scroll Buttons -->
-  <button
-    id="scrollLeft"
-    class="hidden md:flex items-center justify-center absolute left-4 top-1/2 -translate-y-1/2 z-20 w-14 h-14 rounded-full bg-white/10 backdrop-blur-md shadow-lg text-indigo-300 hover:bg-indigo-500 hover:text-white transition-all duration-300 hover:scale-110"
-    aria-label="Scroll Left">
-    <span class="text-2xl">←</span>
-  </button>
-
-  <button
-    id="scrollRight"
-    class="hidden md:flex items-center justify-center absolute right-4 top-1/2 -translate-y-1/2 z-20 w-14 h-14 rounded-full bg-white/10 backdrop-blur-md shadow-lg text-indigo-300 hover:bg-indigo-500 hover:text-white transition-all duration-300 hover:scale-110"
-    aria-label="Scroll Right">
-    <span class="text-2xl">→</span>
-  </button>
-
   <!-- Scrollable Cards -->
   <div
-    id="certCards"
-    class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory px-2 md:px-8 no-scrollbar">
-
+    class="flex gap-6 overflow-x-auto snap-x snap-mandatory px-2 md:px-8 no-scrollbar scroll-smooth hover:[scroll-behavior:auto] group">
+    
     <!-- Card Template -->
     <a href="static//pdf//ML.pdf" target="_blank"
-      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.03] transition-all duration-300 hover:ring-2 hover:ring-indigo-400/70">
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] flex-shrink-0 bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.04] transition-transform duration-300 hover:ring-2 hover:ring-indigo-400/70">
       <img src="static//img//2.jpg" alt="ML Certificate"
         class="mx-auto mb-4 w-28 h-28 rounded-xl object-cover border border-white/20" />
       <h3 class="text-xl font-semibold mb-2 text-indigo-200">Machine Learning</h3>
       <p class="text-sm text-gray-300">IBM 🧠 — Python, Sklearn, pipelines, deployment.</p>
     </a>
 
-    <!-- Repeat for other cards -->
     <a href="static//pdf//app.pdf" target="_blank"
-      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.03] transition-all duration-300 hover:ring-2 hover:ring-indigo-400/70">
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] flex-shrink-0 bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.04] transition-transform duration-300 hover:ring-2 hover:ring-indigo-400/70">
       <img src="static//img//a.png" alt="Kotlin Certificate"
         class="mx-auto mb-4 w-28 h-28 rounded-xl object-cover border border-white/20" />
       <h3 class="text-xl font-semibold mb-2 text-indigo-200">Android with Kotlin</h3>
@@ -294,7 +276,7 @@
     </a>
 
     <a href="static//pdf//Frontend.pdf" target="_blank"
-      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.03] transition-all duration-300 hover:ring-2 hover:ring-indigo-400/70">
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] flex-shrink-0 bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.04] transition-transform duration-300 hover:ring-2 hover:ring-indigo-400/70">
       <img src="static//img//22.jfif" alt="Full Stack Certificate"
         class="mx-auto mb-4 w-28 h-28 rounded-xl object-cover border border-white/20" />
       <h3 class="text-xl font-semibold mb-2 text-indigo-200">Full Stack Development</h3>
@@ -302,7 +284,7 @@
     </a>
 
     <a href="static//pdf//Python.pdf" target="_blank"
-      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.03] transition-all duration-300 hover:ring-2 hover:ring-indigo-400/70">
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] flex-shrink-0 bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.04] transition-transform duration-300 hover:ring-2 hover:ring-indigo-400/70">
       <img src="static//img//3.jpg" alt="Python Certificate"
         class="mx-auto mb-4 w-28 h-28 rounded-xl object-cover border border-white/20" />
       <h3 class="text-xl font-semibold mb-2 text-indigo-200">Python Basics</h3>
@@ -310,7 +292,7 @@
     </a>
 
     <a href="static//pdf//flask_certificate.pdf" target="_blank"
-      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.03] transition-all duration-300 hover:ring-2 hover:ring-indigo-400/70">
+      class="min-w-[80%] sm:min-w-[60%] md:min-w-[350px] flex-shrink-0 bg-white/5 backdrop-blur-md rounded-2xl shadow-2xl p-6 text-center text-white border border-white/10 snap-start hover:scale-[1.04] transition-transform duration-300 hover:ring-2 hover:ring-indigo-400/70">
       <img src="static//img//1.jpg" alt="Flask Certificate"
         class="mx-auto mb-4 w-28 h-28 rounded-xl object-cover border border-white/20" />
       <h3 class="text-xl font-semibold mb-2 text-indigo-200">Backend with Flask</h3>
@@ -319,32 +301,7 @@
   </div>
 </section>
 
-<!-- Scroll Logic -->
-<script>
-  let scrollIndex = 0;
-  const cardContainer = document.getElementById("certCards");
-  const cardWidth = 376;
-  const cardsPerPage = 2;
-
-  document.getElementById("scrollLeft").addEventListener("click", () => {
-    scrollIndex = Math.max(scrollIndex - cardsPerPage, 0);
-    cardContainer.scrollTo({
-      left: scrollIndex * cardWidth,
-      behavior: "smooth",
-    });
-  });
-
-  document.getElementById("scrollRight").addEventListener("click", () => {
-    const totalCards = cardContainer.children.length;
-    const maxIndex = totalCards - cardsPerPage;
-    scrollIndex = Math.min(scrollIndex + cardsPerPage, maxIndex);
-    cardContainer.scrollTo({
-      left: scrollIndex * cardWidth,
-      behavior: "smooth",
-    });
-  });
-</script>
-
+<!-- Hide Scrollbar -->
 <style>
   .no-scrollbar::-webkit-scrollbar {
     display: none;
