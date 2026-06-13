@@ -32,7 +32,7 @@ Includes a profile picture with a hover effect.
 2. About Me Section
 Details about my education, career, and interests.
 
-Lists my top skills, including Python, JavaScript, Kotlin, SQL, and more.
+Lists my top skills, including Python, JavaScript, SQL, and more.
 
 3. Projects Section
 Showcases some of my personal projects, including links to the GitHub repositories.
