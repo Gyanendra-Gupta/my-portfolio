@@ -1,85 +1,98 @@
-Gyanendra Gupta | Portfolio
-Welcome to the personal portfolio of Gyanendra Gupta, a passionate Full-Stack Developer. This portfolio showcases my work, skills, and projects, designed using modern web technologies.
+# Gyanendra Gupta | Portfolio
 
-Features
-Responsive Design: The portfolio adjusts to different screen sizes, providing a smooth experience on desktops, tablets, and smartphones.
+Welcome to the personal portfolio of **Gyanendra Gupta**, an AI & Machine Learning developer and full-stack builder. This single-page site showcases my background, technical skills, projects, and certifications, built entirely with **HTML, Tailwind CSS, and vanilla JavaScript**.
 
-Tailwind CSS: Utilizes Tailwind CSS for fast and flexible styling.
+🔗 **Live sections:** Home · About · Projects · Certifications · Contact
 
-Animated Transitions: Subtle animations for smoother user interactions.
+---
 
-Projects Section: Highlights my personal projects, with links to the respective GitHub repositories.
+## ✨ Features
 
-Certifications: Lists various certifications related to programming and development technologies.
+- **Responsive design** — adapts cleanly across desktop, tablet, and mobile screens.
+- **Tailwind CSS** — utility-first styling for a fast, consistent design system.
+- **Sticky navigation bar** — smooth-scrolls to each section, with a blur/shadow effect once the user scrolls past the hero.
+- **Manual sliding carousels** — the Projects and Certifications sections scroll horizontally via drag, swipe, or on-screen left/right arrow buttons, with a hidden scrollbar and soft edge fades. Nothing auto-plays — the user is always in control.
+- **Certification PDFs** — each certification card links directly to a downloadable/viewable PDF of the certificate.
+- **Subtle motion** — hover glows, scale transitions, and gradient accents used sparingly for polish rather than distraction.
+- **Contact section** — direct email, phone, LinkedIn, and location details in a clean card layout.
 
-Contact Section: A simple form for contacting me via email or phone.
+---
 
-Tech Stack
-Frontend: HTML, CSS, JavaScript, Tailwind CSS
+## 🛠 Tech Stack
 
-Backend: Python, Flask (used in some projects)
+| Layer | Technologies |
+|---|---|
+| **Frontend (this site)** | HTML5, Tailwind CSS (CDN), vanilla JavaScript |
+| **Backend (used in projects)** | Python, FastAPI, Flask |
+| **AI / ML (used in projects)** | Scikit-learn, LangChain, Hugging Face, RAG pipelines, LLMs |
+| **Databases (used in projects)** | PostgreSQL, SQLite |
+| **Tooling** | Git, GitHub, VS Code, Docker |
 
-Mobile App Development: Kotlin (used in some projects)
+---
 
-Databases: MySQL, MongoDB (used in projects)
+## 📑 Sections
 
-Sections
-1. Hero Section
-Introduces me as a full-stack developer, with details about my background and skills.
+### 1. Hero
+Introduces me as an AI & Machine Learning Developer, with a short summary of what I build and two calls to action — *View Projects* and *Contact Me*.
 
-Includes a profile picture with a hover effect.
+### 2. About Me
+Covers my education (B.Tech in AI & ML, Pranveer Singh Institute of Technology) and the kind of applications I build, followed by a **Technical Skills** grid covering Python, ML libraries, GenAI/RAG, backend frameworks, databases, and tooling.
 
-2. About Me Section
-Details about my education, career, and interests.
+### 3. Projects
+A horizontally scrollable carousel of personal projects — including VideoInsight AI, MindPulse, DeepResearch AI, and BizMate — each with a short description, tech-stack tags, and a link to the GitHub repository.
 
-Lists my top skills, including Python, JavaScript, SQL, and more.
+### 4. Certifications
+A horizontally scrollable carousel of certificates from **IBM**, **Infosys Springboard**, and **Udemy**. Clicking any card opens the certificate's PDF in a new tab.
 
-3. Projects Section
-Showcases some of my personal projects, including links to the GitHub repositories.
+### 5. Contact
+Email, phone, LinkedIn, and location, presented as clean, glassmorphic info cards rather than a form.
 
-Each project includes a brief description and the technologies used.
+---
 
-4. Certifications Section
-A scrollable section displaying my certificates from platforms like IBM, Udemy, and Infosys.
+## 🚀 How to View
 
-Links to downloadable PDFs for each certificate.
+Simply open `index.html` in any modern browser — no build step or server required.
 
-5. Contact Section
-Provides a way for visitors to get in touch via email or phone.
+## 📦 Installation
 
-How to View
-You can view this portfolio by simply opening the index.html file in your browser. It will work on any modern browser.
-
-Installation
 Clone the repository:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/Gyanendra-Gupta/portfolio.git
-Open the index.html file in your browser:
+```
 
-bash
-Copy
-Edit
-open index.html
-Contributing
-Fork the repository.
+Then open `index.html` directly in your browser:
 
-Create a feature branch (git checkout -b feature-branch).
+```bash
+open index.html        # macOS
+start index.html       # Windows
+xdg-open index.html    # Linux
+```
 
-Commit your changes (git commit -am 'Add new feature').
+## 🗂 Project Structure
 
-Push to the branch (git push origin feature-branch).
+```
+portfolio/
+├── index.html
+└── static/
+    ├── img/            # profile, about, and certification images
+    └── pdf/            # downloadable certification PDFs
+```
 
-Open a pull request.
+## 🤝 Contributing
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-branch`
+3. Commit your changes: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin feature-branch`
+5. Open a pull request.
 
-Acknowledgements
-Inspired by various developer portfolios and web design trends.
+## 📄 License
 
-Thanks to Tailwind CSS for providing utility-first CSS classes.
+This project is licensed under the **MIT License** — see the `LICENSE` file for details.
 
-Thanks to all the contributors to the open-source community.
+## 🙏 Acknowledgements
+
+- Inspired by modern developer-portfolio and web design trends.
+- Thanks to [Tailwind CSS](https://tailwindcss.com) for the utility-first styling toolkit.
+- Thanks to the open-source community for the libraries and tools this portfolio and its projects are built on.
